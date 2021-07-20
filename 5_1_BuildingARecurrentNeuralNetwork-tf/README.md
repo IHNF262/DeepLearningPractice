@@ -1,7 +1,13 @@
 Request:
   python 3.8
   
-In this section, we completed two tasks.
+In this section, we try to show some typical examples with RNN or LSTM.
+
+__1.Dinasaur names
+
+
+
+__1
 
 __1.Initialize parameters:__  
 >(1)initialization with zeros.  
