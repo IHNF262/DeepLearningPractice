@@ -5,15 +5,14 @@ Request:
   
 In this section, we try to show some typical examples with RNN or LSTM. 
 
-__1.Dinasaur names: (employ RNN)__
+## Dinasaur names: (employ RNN)
 
+**we need a name generator to generate reasonable names, which can be constructed by training some input with existing names by RNN.**  
 
-
-1. Dinasaur Names:  
-  we need a name generator to generate reasonable names, which can be constructed by training some input with existing names by RNN.  
-(1)Open Training data:  
+- (1)Open Training data :  
   There are 1536 reasonable names, and these names have a total of 19909 characters, 27 of which 27 are unique.'a'-'z' + '\n')  
-(2)training:  
+  
+- (2)training :  
    As the parameters, such as ___Wax, Waa, Wya, ba, by___ are unique, so the number of RNN units can vary with the length of input name characters.  
 
 __1.Initialize parameters:__  
