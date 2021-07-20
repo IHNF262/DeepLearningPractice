@@ -1,13 +1,15 @@
 Request:
   python 3.8
   
-In this section, we try to show some typical examples with RNN or LSTM.
+In this section, we try to show some typical examples with RNN or LSTM. 
 
-__1.Dinasaur names
+__1.Dinasaur names: (employ RNN)__
 
 
 
-__1
+1. Dinasaur Names: we need a name generator to generate reasonable names, which can be constructed by training some input with existing names by RNN. 
+   >(1)Open Training data.There are 1536 reasonable names, and these names have a total of 19909 characters, 27 of which 27 are unique.'a'-'z' + '\n')
+
 
 __1.Initialize parameters:__  
 >(1)initialization with zeros.  
