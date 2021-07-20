@@ -13,9 +13,7 @@ In this section, we try to show some typical examples with RNN or LSTM.
   There are 1536 reasonable names, and these names have a total of 19909 characters, 27 of which 27 are unique.'a'-'z' + '\n')  
   
 - (2)training :  
-   As the parameters, such as ___Wax, Waa, Wya, ba, by___ are unique, so the number of RNN units can vary with the length of input name characters.  
-   
-   In backward propagation for RNN, bias for each character all influence the gradient of parameters.
+   As the parameters, such as ___Wax, Waa, Wya, ba, by___ are unique, so the number of RNN units can vary with the length of input name characters.And in backward propagation for RNN, bias for each character all influence the gradient of parameters.
 
 __1.Initialize parameters:__  
 >(1)initialization with zeros.  
