@@ -14,11 +14,12 @@ In this section, we try to show some typical examples with RNN or LSTM.
   
 - (2)training :  
    As the parameters, such as ___Wax, Waa, Wya, ba, by___ are unique, so the number of RNN units can vary with the length of input name characters.And in backward propagation for RNN, bias for each character all influence the gradient of parameters.
+   
+- (3)results : 
+   now, we can generate new names based on our trained generator. we employ the SAMPLE function to implement the process.The input a(0) and x<1>(0) are initialized with zero.
 
-__1.Initialize parameters:__  
->(1)initialization with zeros.  
->(2)initialization with random.  
->(3)initialization with He.
+
+
 
 __2.Model with regularization:__  
 >(1)L2 regularization.  
