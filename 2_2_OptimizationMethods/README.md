@@ -10,7 +10,7 @@ __Optimizations methods__(all on the mini_batch optimizations):
   - (3): Model with Adam
 
 ## Data Classification
-  The input data & the NN structure
+  The NN structure & the input data
    ![Alt text](https://raw.githubusercontent.com/IHNF262/DeepLearningPractice/main/5_1_BuildingARecurrentNeuralNetwork-tf/images/1.png)
    
    
@@ -19,6 +19,8 @@ __Optimizations methods__(all on the mini_batch optimizations):
    
    
   - __Gradient Descent__ :  
+  - __Model With Momentum Optimization__ :  
+  - __Model With Adam Optimization__ :  
   
   
  
