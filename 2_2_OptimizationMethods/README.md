@@ -11,5 +11,16 @@ __Optimizations methods__(all on the mini_batch optimizations):
 
 ## Data Classification
   The input data & the NN structure
+   ![Alt text](https://raw.githubusercontent.com/IHNF262/DeepLearningPractice/main/5_1_BuildingARecurrentNeuralNetwork-tf/images/1.png)
+   
+   
+   __Notice__: All gradient descent optimization methods are executed under the preconditionson on the mini_batch optimization.  
+   The mini_batch optimization will shuffle the input X and randomly divide X into smaller batches of the same size at each iterations. 
+   
+   
+  - __Gradient Descent__ :  
+  
+  
+ 
   
   
