@@ -8,3 +8,8 @@ __Optimizations methods__(all on the mini_batch optimizations):
   - (1): Gradient Descent
   - (2): Model with momentum 
   - (3): Model with Adam
+
+## Data Classification
+  The input data & the NN structure
+  
+  
