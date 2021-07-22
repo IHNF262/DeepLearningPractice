@@ -18,8 +18,13 @@ __Optimizations methods__(all on the mini_batch optimizations):
    The mini_batch optimization will shuffle the input X and randomly divide X into smaller batches of the same size at each iterations. 
    
    
-  - __Gradient Descent__ :  
+  - __Gradient Descent__ : 
+
+
   - __Model With Momentum Optimization__ :  
+     Because this example is relatively simple, the gains from using momentum are small.But for more complex problems, we will get bigger gains.
+
+
   - __Model With Adam Optimization__ :  
   
   
