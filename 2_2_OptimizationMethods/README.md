@@ -26,7 +26,7 @@ __Optimizations methods__(all on the mini_batch optimizations):
 
 
   - __Model With Adam Optimization__ :  
-  
+     Looking at the figure blow, we see that the adam optimization accelerates the parameteres convergency extremely.
   
  
   
