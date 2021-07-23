@@ -2,7 +2,9 @@
 Request:
   python 3.8
   
-In this section, we still use the typical problem of 2D points classification to illustrate the effect of different optimization methods on the speed of the parameters convergence.__It is important to note that no matter which optimization method is used, the effect is to accelerate the convengence of the parameters.__
+In this section, we still use the typical problem of 2D points classification to illustrate the effect of different optimization methods on the speed of the parameters convergence.  
+
+__It is important to note that no matter which optimization method is used, the effect is to accelerate the convengence of the parameters.__
 
 __Optimizations methods__(all on the mini_batch optimizations):  
   - (1): Gradient Descent
